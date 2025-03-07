@@ -1,0 +1,178 @@
+
+#index{
+    background-color: rgb(221, 239, 233);
+}
+#go{background-color: rgb(221, 239, 233);
+    margin: 0%;
+    height:auto
+}
+
+p{
+    font-size: 20px;
+    color: black;
+
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    
+}
+.title{
+    text-align: center;
+    width: 750px;
+    height: 70px;
+    padding:30px 0px 30px 0px;
+    font-size: 60px;
+    border-radius: 20px;
+    border-top: 5px solid;
+    border-color: rgb(32, 99, 92);
+    overflow: visible;
+    margin-top: 20px;
+
+   
+}
+.thicker {
+    font-weight: 900;
+    background-color: rgb(255, 255, 255);
+
+  }
+.small {
+    line-height: 0.7;
+  }
+  .smaller{
+    line-height: 0.5;
+    color: blue;
+  }
+#nice{
+    color:rgb(123, 123, 123);
+    font-size: 15px;
+}
+.good{
+    font-size: 15px;
+}
+.image{
+    width:750px;
+    height:auto;
+}
+.center,.confirmation-text{
+    text-align: center;
+}
+.center1 {
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+}
+.red{
+    background-color: blueviolet;
+}
+.confirmation-text,.sure-text,.thought{
+    color: rgb(172, 172, 172);
+    font-size: 13px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+div {
+    padding: 70px;
+}
+
+
+
+.center-container{
+    display: flex;
+    flex-direction: column;  /* Stack elements vertically */
+    align-items: center;  /* Center horizontally */
+    height: auto;  /* Full viewport height */
+    text-align: center;
+}
+.button{
+  
+    background-color:rgba(70, 70, 70, 0.402);
+    border-radius: 8px;
+    border-width: 0;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+ 
+.hidden-checkbox {
+    display: none;
+}
+
+.confirmation-text,
+.link-button,
+.sure-text,
+.final-button{
+    display: none;
+}
+
+/* Show the confirmation text and link button when the checkbox is checked */
+#toggle-button:checked ~ .confirmation-text,
+#toggle-button:checked ~ .link-button {
+    display: block;
+    margin-top: 10px;
+}
+#toggle-button2:checked ~ .sure-text,
+#toggle-button2:checked ~ .final-button
+ {
+    display: block;
+    margin-top: 10px;
+}
+
+.link-button,
+.final-button {
+    text-decoration: none;
+}
+
+.center-container2{
+    display: flex;
+    flex-direction: column;  /* Stack elements vertically */
+    height: auto;  /* Full viewport height */
+    width: 100%; /* Make sure it spans the full width */
+    max-width: none;
+    flex-wrap: wrap;
+    
+}
+/*for GO.html*/
+.box-1,.box-2,.box-3{
+    width: 40%;
+}
+.box-1{
+    margin-left: 600px;
+   height: 800px;
+   /* background-color: blue; */
+   
+}
+.box-2 {
+    padding:5px ;
+    height: 200px;
+    transform: translate(0px, -600px);
+    /* background-color: aqua; */
+}
+.box-3{
+    margin-left:900px;
+    height:200px;
+    transform: translate(0px, -650px);
+    /* background-color: brown; */
+}
+/* .q1{
+    position: absolute;
+    right: 40px;
+}
+.q2{
+    position: absolute;
+    top: 450px;
+    left: 15px
+}
+.q3{
+    position: absolute;
+
+    top: 600px;
+    right:70px
+} */
